@@ -134,7 +134,7 @@ int main()
 		if (answer == 'y') {
 			toUpperCase(line, length);
 		}
-		if (answer == 'n') {
+		else {
 			unsigned int start, finish;
 			cout << "Enter first and last index of line you want to convert. (Indexes should not be greater than the line's length + 1)" << endl;
 			cin >> start >> finish;
@@ -151,7 +151,7 @@ int main()
 		if (answer == 'y') {
 			toLowerCase(line, length);
 		}
-		if (answer == 'n') {
+		else {
 			unsigned int start, finish;
 			cout << "Enter first and last index of line you want to convert. (Indexes should not be greater than the line's length + 1)" << endl;
 			cin >> start >> finish;
